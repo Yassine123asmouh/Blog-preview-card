@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   body{
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+   }
+   .body{
+    background-color:#ffffff;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 20px;
+    border: black solid 1px;
+    box-shadow: black 10px 10px;
+    position: relative;
+    top: 200px;
+   }
+  
+   img{
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+   }
+   .top ,.bottom {
+      margin-left: 35px;
+   }
+  .first{
+    background-color: #f6cf4c;
+    text-align: center;
+    border-radius: 5px ;
+    margin-left:-5px ;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    font-weight: 600;
+    top: 5px;    
+  }
+  .second{
+   font-size: 18px;
+  }
+  .bottom{
+   position: relative;
+   bottom: 20px;
+  }
+.third{
+   font-size: 25px;
+}
+.third:hover{
+   color: #f5d04e;
+}
+.forth{
+   opacity: 0.5;
+   font-weight: 600;
+}
+.prof{
+    width: 40px;
+    height: 40px;
+}
+span{
+   font-weight: 900;
+   position: relative;
+   bottom: 15px;
+   left: 10px;
+}
+  .attribution { display: none; }
+  </style>
+</head>
+<body>
+  <div class="body">
+    <img src="illustration-article.svg" alt="">
+ <div class="top">
+         <p class="first">Learning</p>
+         <p class="second">Published 21 Dec 2023</p> 
+ </div>
+ <div class="bottom">
+    <p class="third"><b>HTML & CSS foundations</b></p>
+    <p class="forth">These languages are the backbone of every <br> website, defining structure, content, and presentation.</p>
+  
+
+   <img class="prof" src="image-avatar.webp" alt="">
+    <span> Greg Hooper</span>
+  </div>
+ </div>
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+ </div>
+</body>
+</html>
